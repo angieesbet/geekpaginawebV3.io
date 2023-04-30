@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+.header-container {
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #022859;
+    color: #fff;
+}
+
+.header-container h3 {
+    font-family: sans-serif;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6ec7;
+}
+
+body {
+    background:url('japan.jpg') no-repeat center center fixed;
+    background-size:cover;
+    backdrop-filter: blur(2.5px);
+}
+
+#contenedor-formulario{
+    background: rgba(44, 43, 43, 0.801);
+    border-radius: 5px;
+    /* filter:blur(10px); */
+    backdrop-filter:blur(1px);
+}
+
+#tel, #msj, #email, #nombre {
+    background: rgba(249, 249, 250, 0.1)
+}
+
+.btn-registrarse {
+    background-color: #6e0b24;
+    border: none;
+}
+  
+  .btn-registrarse:hover, .btn-registrarse:focus {
+    background-color: #ff6ec7;
+    outline: none;
+}
+
+.contenedor-texto-acceder {
+    text-align: center;
+  }
+  
+.texto-acceder {
+    color: #fff;
+}
+
+#nombre {
+    color: white;
+}
+
+#email {
+    color: white;
+}
+  
+
+.reducir-margen-inferior {
+    margin-bottom: 1px; /* o cualquier otro valor que prefieras */
+}
+  
+
+::placeholder {
+    color: rgb(245, 245, 245) !important;
+}
+
+footer {
+    background-color: #06344a;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    display: block;
+}
